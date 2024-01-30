@@ -1,0 +1,132 @@
+* {
+    margin: 1px;
+}
+
+header, footer {
+    background-color: #9c8ca1;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.contener {
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+}
+
+.souscontener {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.imageprofile {
+    width: 50%;
+    height: 10%;
+}
+
+nav a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+h1 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 4em;
+    color: #93709e
+}
+
+h2 {
+    font-family: 'EB Garamond', serif;
+}
+
+h3 {
+    font-family: 'EB Garamond', serif;
+    padding: 1em;
+    margin: auto;
+    font-size: 30px;
+}
+
+p {
+    font-family: 'EB Garamond', serif;
+}
+
+.pourquoi {
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+
+.click {
+    width: 10%;
+    border: #93709e solid;
+    background-color: #93709e;
+    color: white;
+    margin: auto;
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+    font-size: 20px;
+    padding: 10px;
+    display: block;
+    border-radius: 20px;
+
+}
+
+.section2 {
+    background-color: #9c8ca1;
+    padding-bottom: 50px;
+    margin: auto;
+}
+
+.logolien {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.logolien2 {
+    display: flex;
+    justify-content: space-around;
+    font-size: 2em;
+    gap: 3px;
+    padding-bottom: 50px;
+}
+.img2 {
+    width: 100px;
+    height: 100px;
+}
+
+a img:hover {
+    opacity: 50%;
+}
+
+.click:hover {
+    box-shadow: black;
+    background-color: #795285;
+    border-color: #795285;
+}
+
+.banniere {
+    background-image: url("images/banniere.jpg");
+    background-position: center;
+    background-repeat: no-repeat ;
+    margin: 0;
+    padding: 0;
+    background-size: 100% auto;
+}
+
+.bannieretext {
+    visibility: hidden;
+    padding: 200px;
+}
