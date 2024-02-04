@@ -52,18 +52,27 @@ nav a:after {
     width: 100%;
   }
 
+section {
+    padding-bottom: 10%;
+}
+
 .section-0 {
     background-image: url('./images/banniere.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    padding-bottom: 20%;
+}
+
+.section-1 {
+    padding-top: 10%;
 }
 
 h1 {
     font-family: 'Cinzel', serif;
     font-size: 2.5em;
     color: black;
-    padding-top: 20%;
+    padding-top: 30%;
     padding-left: 40%;
 }
 
@@ -97,9 +106,10 @@ p {
 h5 {
     font-family: 'Cinzel', serif;
     padding-left: 10%;
-    padding-top: 13%;
+    padding-top: 1%;
     padding-bottom: 5%;
     font-size: 1.5em;
+    text-decoration: underline #76A89D;
 }
 
 .pourquoi {
@@ -138,8 +148,8 @@ h5 {
 
 .click:hover {
     box-shadow: black;
-    background-color: #688D85;
-    border-color: #688D85;
+    background-color: #435e58;
+    border-color: #435e58;
 }
 
 .profile {
@@ -163,30 +173,6 @@ h5 {
     background-color: white;
     padding-bottom: 50px;
 }
-
-.logolien {
-    display: flex;
-    justify-content: space-around;
-    padding-top: 30px;
-}
-
-.logolien2 {
-    display: flex;
-    justify-content: space-around;
-    font-size: 2em;
-    gap: 3px;
-    padding-bottom: 50px;
-}
-.img2 {
-    width: 100px;
-    height: 100px;
-}
-
-a img:hover {
-    opacity: 50%;
-}
-
-
 
 .dip2 {
     display: flex;
@@ -253,7 +239,7 @@ a img:hover {
 .nomdiplome {
     font-family: 'Cinzel', serif;
     font-size: 2em;
-    color:#75A99E;
+    color:#435e58;
 
 }
 
@@ -273,4 +259,23 @@ footer {
     width: 5em;
     height: 5em;
     background-color: transparent;
+}
+
+.section-6 {
+    padding-bottom: 10%;
+    background-image: url(images/bureau.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.contact {
+    font-size: 1.5em;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 2%;
+    border: solid 5px #688D85;
+    background-color: #688D85;
+    color: white;
 }
