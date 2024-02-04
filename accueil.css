@@ -52,7 +52,7 @@ nav a:after {
     width: 100%;
   }
 
-.Presentation {
+.section-0 {
     background-image: url('./images/banniere.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -159,7 +159,7 @@ h5 {
     align-items: center;
 }
 
-.section2 {
+.section-1 {
     background-color: white;
     padding-bottom: 50px;
 }
