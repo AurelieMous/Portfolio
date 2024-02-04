@@ -14,9 +14,10 @@ header {
 }
 
 a {
+    display: inline;
+    position: relative;
     color: black;
     text-decoration: none;
-    cursor: pointer;
 }
 
 .imageprofile {
@@ -35,10 +36,21 @@ nav {
     padding-top: 1%;
 }
 
-nav a:hover {
-    color:#75A99E;
-    text-decoration: underline;
+nav a:after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 1px;
+    width: 0%;
+    left: 0px;
+    height: 2px;
+    transition: 0.25s cubic-bezier(0.72,-0.01, 0.19, 0.92);
+    background: #76A89D;
 }
+
+ nav a:hover:after {
+    width: 100%;
+  }
 
 .Presentation {
     background-image: url('./images/banniere.jpg');
@@ -183,7 +195,7 @@ a img:hover {
     gap: 1em;
 }
 
-.formation {
+.diplome {
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
@@ -249,4 +261,16 @@ footer {
     text-align: center;
     font-family: 'Roboto Slab', serif;
     font-size: 1.1em;
+}
+
+#back {
+    position: fixed;
+    top: 93%;
+    left: 93%;
+}
+
+.retourhautdepage {
+    width: 5em;
+    height: 5em;
+    background-color: transparent;
 }
