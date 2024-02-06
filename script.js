@@ -1,6 +1,7 @@
 const navLinks = [...document.querySelectorAll("nav a")]
 const sections = [...document.querySelectorAll("section")]
 const bontonC = document.getElementById("boutonC")
+const back = document.getElementById("back")
 
 let sectionPosition;
 
@@ -28,6 +29,15 @@ boutonC.addEventListener("click", addScrollSmoothContact)
 function addScrollSmoothContact() {
     window.scrollTo({
         top: sections.at(6).offsetTop,
+        behavior: "smooth"
+    })
+}
+
+back.addEventListener("click", addScrollReturn)
+
+function addScrollReturn() {
+    window.scrollTo({
+        top: 0,
         behavior: "smooth"
     })
 }

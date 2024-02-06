@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <title>Aurélie Moustardier - CV</title>
     <link href="accueil.css" rel="stylesheet">
+    <link href="responsive.css" rel="stylesheet">
+    <link href="competences.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
@@ -14,7 +16,7 @@
 </head>
 <body>
     <header>
-        <nav>
+        <nav id="navigateur">
             <a href="#section-0">Accueil</a>
             <a href="#section-2">Présentation</a>
             <a href="#section-3">Dîplomes</a>
@@ -28,22 +30,27 @@
         <section class="section-0">
             <h1>Aurélie Moustardier</h1>
             <h2>Alternance pour Développeuse Web</h2>
-            <h3>Pour la Formation Concepteur Développeur d'Application Bac+4 - Code RNCP : 37873 <br> Ecole O'Clock</h3>
+            <h3>Pour la Formation Concepteur Développeur d'Application <br>Bac+4 - Code RNCP : 37873 <br> Ecole O'Clock</h3>
             <h4>Rentrée prévu le 21 Octobre 2024</h4>
         </section>
         <section class="section-1">
-            <div class="megacontenaire">
-                <div class="groscontenaire">
-                    <h5>Ma présentation</h5>
-                    <p class="pourquoi">Diététicien passionné par la nutrition, je me lance dans une nouvelle aventure professionnelle en tant que développeur Web. 
-                        Fort de ma capacité d'analyse et de résolution de problèmes acquise dans le domaine de la santé, je m'engage à apporter la même rigueur et 
-                        la même détermination à la création de solutions web innovantes. <br> Mon appétit pour le changement et ma soif d'apprentissage font de moi un 
-                        professionnel polyvalent prêt à relever de nouveaux défis dans le monde du développement informatique.</p>
-                    <p class="pourquoi2">C'est pour cela que je suis à la recherche d'une alternance en tant que Développeuse Web afin de découvrir la pratique du métier, tout en apprenant la théorie à l'école.</p>
-                    <a id="boutonC" class="click" href="#section-6">Me contacter</a>
+            <h5>À propos de moi</h5>
+                <div class="megacontenaire">
+                    <div class="groscontenaire">
+                        <p>À l'âge de 26 ans, je souhaite me réorienter vers le domaine du Développement Web. C’est un domaine qui m'intéresse énormément 
+                            et suscite ma curiosité intellectuelle, non seulement en raison de ses possibilités et ressources professionnelles, mais également 
+                            en raison de son évolution constante et de l'apprentissage qui en découle.</p>
+                        <p>A travers mon métier de diététicienne, j'ai rencontré une multitude de problèmes que j'ai pu résoudre seule, 
+                            ou en équipe pluridisciplinaire. Même en étant la seule diététicienne dans mon poste, j'ai développé mon autonomie tout au long de la journée ainsi que mon sens 
+                            de l'organisation. J'ai également favorisé au maximum la communication avec mes collègues pour améliorer la prise en charge des patients et 
+                            résoudre leurs problèmes nutritionnels.</p>
+                        <p>Le métier de Développeur Web me permettra de répondre aux besoins des clients en créant, modifiant et résolvant des problèmes à travers la conception de sites web.</p>
+                        <p>Ce métier me permettra également de rejoindre une équipe professionnelle avec qui je pourrais échanger et partager un travail, un projet.</p>
+                        <p class="pourquoi2">En tant qu'alternante, je serai flexible et m'adapterai aux besoins de votre entreprise !</p>
+                        <a id="boutonC" class="click" href="#section-6">Me contacter</a>
+                    </div>
+                    <img class="profile" src="images/imageprofile.jpg" alt="Aurélie Moustardier">
                 </div>
-                <img class="profile" src="images/imageprofile.jpg" alt="Aurélie Moustardier">
-            </div>
         </section>
         <section class="section-2">
             <h5>Mes Dîplomes</h5>
@@ -71,21 +78,104 @@
         </section>
         <section class="section-3">
             <h5>Mes formations</h5>
+            <p>Sur OpenClassrooms</p>
+            <ul>
+                <li>Apprendre le HTLM5 et le CSS3</li>
+                <li>Apprendre à programmer avec JavaScript</li>
+                <li>Utiliser JavaScript pour rendre des pages Web dynamiques</li>
+                <li>Initiation au JQuerry</li>
+                <li>Gérer du code sur Git et GitHub</li>
+                <li>Requêter une base de données avec SQL</li>
+                <li>Concevoir un site Web avec PHP et MySQL</li>
+                <li>Apprener à programmer en Java</li>
+            </ul>
         </section>
         <section class="section-4">
             <h5>Mes compétences</h5>
+            <div class="skills">
+                <div class="skills-bar">
+                  <div class="bar">
+                    <div class="info">
+                      <span>Autonomie</span>
+                    </div>
+                    <div class="progress-line">
+                        <span class="autonomie"></span>
+                    </div>
+                    <div class="bar">
+                        <div class="info">
+                            <span>Créativité</span>
+                        </div>
+                        <div class="progress-line"><span class="creativite"></span></div>
+                            <div class="bar">
+                                <div class="info">
+                                    <span>Curiosité</span>
+                                </div>
+                                    <div class="progress-line"><span class="curiosity"></span></div>
+                                        <div class="bar">
+                                            <div class="info">
+                                                 <span>Capacité d'adaptation</span>
+                                            </div>
+                                                <div class="progress-line">
+                                                <span class="adaptation"></span>
+                                            </div>
+                                                <div class="bar">
+                                                    <div class="info">
+                                                        <span>Travail en équipe</span>
+                                                    </div>
+                                                        <div class="progress-line"><span class="travailequipe"></span></div>
+                                                            <div class="bar">
+                                                                <div class="info">
+                                                                    <span>Organisation</span>
+                                                                </div>
+                                                                    <div class="progress-line">
+                                                                        <span class="organisation"></span></div>
+                                                                            <div class="bar">
+                                                                                <div class="info">
+                                                                                    <span>Empathie</span>
+                                                                                </div>
+                                                                                <div class="progress-line">
+                                                                                    <span class="empathie"></span></div>
+                                                                                </div>
+                                                                                        
+                                                                            </div>
+                                                                    </div>
+                                                            </div>
+                                                        </div>
+                                                </div>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>    
         </section>
         <section class="section-5">
             <h5>Mes Expériences</h5>
+            <div class="texteimg">
+                <div class="texte">
+                <h6>Diététicienne Nutritionniste à temps partiel</h6>
+                <p>Soins Médicaux et de Réadaptation Filieris La Pomarède</p>
+                <p>Depuis décembre 2020 aux Salles-du-Gardon</p>
+                <h6>Diététicienne Nutritionniste Libérale à temps partiel</h6>
+                <p>Soins Médicaux et de Réadaptation Les Cadières</p>
+                <p>Depuis décembre 2022 à Saint-Privat-Des-Vieux</p>
+                <h6>Diététicienne Nutritionniste libérale à temps partiel</h6>
+                <p>Société Barboteu Restauration</p>
+                <p>Octobre 2021 à Novembre 2022 à plusieurs établissements de soins</p>
+                <h6>Diététicienne Nutritionniste à temps complet</h6>
+                <p>Centre Hospitalier Alès Cévennes</p>
+                <p>Février 2020 à Août 2020 à Alès</p>
+                </div>
+                <div class="img"><img src="images/parcour.jpg" alt="parcours professionnel"></div>
+            </div>
         </section>
         <section class="section-6">
             <h5>Me contacter</h5>
-            <div class="contact">
+            <div class="contacter">
                 <p>Mail : aurelie.moustardier@gmail.com</p>
                 <p>Téléphone : 06.15.82.69.78</p>
             </div>
         </section>
-        <a id="back" href="#"><img class="retourhautdepage" src="images/retour.png"></a>
+        <a id="back" href="#section-0"><img class="retourhautdepage" src="images/retour.png"></a>
     </main>
     <footer>
         <p>Crée par Aurélie Moustardier, tout droits réservés.</p>

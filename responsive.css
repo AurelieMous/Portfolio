@@ -1,0 +1,31 @@
+
+@media screen and (min-width: 2560px){
+    .groscontenaire {
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+    }
+
+    h5 {
+        padding-left: 15%;
+        padding-bottom: 3%;
+    }
+
+    .section-0 {
+        padding-bottom: 15%;
+}
+
+    h1 {
+        padding-top: 20%;
+    }
+    
+    h2, h3, h4 {
+        padding-bottom: 1%;
+        padding-top: 1%;
+    }
+
+    .profile {
+        width: 17%;
+        height: 10%;
+    }
+    }

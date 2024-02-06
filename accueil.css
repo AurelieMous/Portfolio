@@ -52,10 +52,6 @@ nav a:after {
     width: 100%;
   }
 
-section {
-    padding-bottom: 10%;
-}
-
 .section-0 {
     background-image: url('./images/banniere.jpg');
     background-size: cover;
@@ -112,12 +108,11 @@ h5 {
     text-decoration: underline #76A89D;
 }
 
-.pourquoi {
+div p  {
     text-align: justify;
     font-family: 'Roboto Slab', serif;
     font-size: 1.1em;
     padding-bottom: 15px;
-    padding-left: 50px;
     padding-right: 50px;
 }
 
@@ -126,6 +121,7 @@ h5 {
     font-weight: bold;
     font-family: 'Cinzel', serif;
     font-size: 1.1em;
+    padding-top: 5%;
     padding-bottom: 5%;
     padding-left: 20%;
     padding-right: 20%;
@@ -140,9 +136,10 @@ h5 {
     text-align: center;
     font-family: 'Roboto Slab', serif;
     font-size: 1.1em;
-    padding: 1%;
+    padding: 2%;
     display: block;
     border-radius: 20px;
+    width: 15%;
 
 }
 
@@ -153,25 +150,27 @@ h5 {
 }
 
 .profile {
-    width: 20%;
-    height: 30%;
+    width: 27%;
+    height: 40%;
     box-shadow: 12px 12px 2px 1px #75A99E;
 }
 
 .groscontenaire {
     display: flex;
     flex-direction: column;
+    width: 60%;
 }
 
 .megacontenaire {
     display: flex;
-    padding: 2%;
     align-items: center;
+    justify-content: center;
+    gap:2em
 }
 
 .section-1 {
     background-color: white;
-    padding-bottom: 50px;
+    padding-bottom: 10%;
 }
 
 .dip2 {
@@ -243,6 +242,97 @@ h5 {
 
 }
 
+.section-3 {
+    background-color: #435e58;
+}
+
+.section-3 h5 {
+    padding-top: 5%;
+    color: white;
+    text-decoration: underline #435e58;
+}
+
+.section-3 p {
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    padding-bottom: 3%;
+    color: white
+}
+
+.section-3 ul li {
+    margin-left: 40%;
+    padding-top: 1%;
+    font-family: 'Roboto Slab', serif;
+    color: white
+}
+
+li::marker {
+    color: #75A99E;
+}
+
+ul {
+    padding-bottom:10%;
+}
+
+.section-4 {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.section-5 {
+    padding-left: 10%;
+    padding-bottom: 10%;
+}
+
+h6 {
+    font-weight: bold;
+    font-family: 'Cinzel', serif;
+    font-size: 1.1em;
+    padding-top: 5%;
+}
+
+.texte {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-5 img {
+    width: 50%;
+    height: 10%;
+}
+
+.texteimg {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    gap: 2em;
+}
+
+.section-6 {
+    padding-bottom: 10%;
+    background-image: url(images/bureau.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.contacter {
+    font-size: 1.5em;
+    margin-right: 20%;
+    margin-left: 20%;
+    padding: 3%;
+    border: solid 5px #688D85;
+    background-color: #688D85;
+    color: white;
+}
+
+.contacter p {
+    text-align: center;
+}
+
+
 footer {
     text-align: center;
     font-family: 'Roboto Slab', serif;
@@ -261,21 +351,3 @@ footer {
     background-color: transparent;
 }
 
-.section-6 {
-    padding-bottom: 10%;
-    background-image: url(images/bureau.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.contact {
-    font-size: 1.5em;
-    text-align: center;
-    margin-left: 20%;
-    margin-right: 20%;
-    padding: 2%;
-    border: solid 5px #688D85;
-    background-color: #688D85;
-    color: white;
-}
