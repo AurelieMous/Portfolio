@@ -35,7 +35,7 @@
     border-radius: 10px;
     transform: scaleX(0);
     transform-origin: left;
-    animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+    animation: animate 5s cubic-bezier(1, 0, 0.5, 1) forwards;
   }
   
   .bar .progress-line span {
@@ -45,7 +45,7 @@
     border-radius: 10px;
     transform: scaleX(0);
     transform-origin: left;
-    animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+    animation: animate 6s 6s cubic-bezier(1, 0, 0.5, 1) forwards;
   }
   
   @keyframes animate {

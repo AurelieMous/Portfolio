@@ -57,15 +57,16 @@ nav a:after {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    padding-top: 20%;
-    padding-bottom: 10%;
-    padding-left: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {
     font-family: 'Cinzel', serif;
     font-size: 2.5em;
     color: black;
+    padding-top: 50%;
 }
 
 h2 {
@@ -76,18 +77,20 @@ h2 {
 h3 {
     font-family: 'Roboto Slab', serif;
     font-size: 1em;
+    color: #435e58;
 }
 
 h4 {
     font-family: 'Cinzel', serif;
     font-size: 1.5em;
     color: black;
-    padding-top: 5%;
+    margin-top: 5%;
 }
 
 .section-0 a {
     display: block;
     margin-top: 5%;
+    margin-bottom: 30%;
 }
 
 .section-0 a:after {
@@ -103,7 +106,7 @@ h4 {
 }
 
 .section-0 a:hover:after {
-    width: 10%;
+    width: 24%;
   }
 
 .section-1 {
@@ -259,32 +262,25 @@ div p  {
 }
 
 .section-3 {
-    background-color: #435e58;
-}
-
-.section-3 h5 {
+    background-image: url(images/fondbleu.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     padding-top: 5%;
-    color: white;
-    text-decoration: underline #435e58;
 }
 
 .section-3 p {
     font-family: 'Roboto Slab', serif;
     text-align: center;
     padding-bottom: 3%;
-    color: white
 }
 
 .section-3 ul li {
     margin-left: 40%;
     padding-top: 1%;
     font-family: 'Roboto Slab', serif;
-    color: white
 }
 
-li::marker {
-    color: #75A99E;
-}
 
 ul {
     padding-bottom:10%;
@@ -296,7 +292,6 @@ ul {
 }
 
 .section-5 {
-    padding-left: 10%;
     padding-bottom: 10%;
 }
 
@@ -304,26 +299,19 @@ h6 {
     font-weight: bold;
     font-family: 'Cinzel', serif;
     font-size: 1.1em;
-    padding-top: 5%;
+    padding-top: 2%;
+    text-align: center;
 }
 
-.texte {
-    display: flex;
-    flex-direction: column;
+.section-5 p {
+    text-align: center;
 }
 
-.section-5 img {
-    width: 50%;
-    height: 10%;
-}
-
-.texteimg {
-    display: flex;
-    align-content: center;
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
-    gap: 2em;
+.date {
+    border-bottom: solid 1px #76A89D;
+    margin: auto;
+    width: 30%;
+    padding-bottom: 3%;
 }
 
 .section-6 {
