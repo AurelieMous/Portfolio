@@ -6,37 +6,31 @@ header, footer {
     background-color: white;
 }
 
-header {
+nav {
     display: flex;
     justify-content: center;
-    gap: 30px;
-
 }
 
 a {
-    display: inline;
+    display: inline-block;
     position: relative;
     color: black;
     text-decoration: none;
-}
-
-.imageprofile {
-    width: 20%;
-    height: 10%;
 }
 
 nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     gap: 2em;
-    font-family: 'Roboto Slab', serif;
+    font-family: "Playfair Display", serif;
     font-size: 1.3em;
     padding-bottom: 1%;
     padding-top: 1%;
 }
 
-nav a:after {
+.ligne:after {
     content: '';
     display: block;
     position: absolute;
@@ -48,7 +42,7 @@ nav a:after {
     background: #76A89D;
 }
 
- nav a:hover:after {
+ .ligne:hover:after {
     width: 100%;
   }
 
@@ -64,19 +58,19 @@ nav a:after {
 }
 
 h1 {
-    font-family: 'Cinzel', serif;
+    font-family: "Playfair Display", serif;
     font-size: 2.5em;
     color: black;
     padding-top: 50%;
 }
 
 h2 {
-    font-family: 'Roboto Slab', serif;
+    font-family: "Playfair Display", serif;
     font-size: 2em;
 }
 
 h3 {
-    font-family: 'Roboto Slab', serif;
+    font-family: "Roboto", sans-serif;
     font-size: 1em;
     color: #435e58;
 }
@@ -107,7 +101,7 @@ h4 {
 }
 
 .section-0 a:hover:after {
-    width: 24%;
+    width: 19%;
   }
 
 .section-1 {
@@ -117,22 +111,22 @@ h4 {
 }
 
 p {
-    font-family: 'Roboto Slab', serif;
+    font-family: "Roboto", sans-serif;
     font-size: 1.1em;
 }
 
 h5 {
-    font-family: 'Cinzel', serif;
+    font-family: "Playfair Display", serif;
     padding-left: 10%;
     padding-top: 1%;
-    padding-bottom: 5%;
+    padding-bottom: 3%;
     font-size: 1.5em;
     text-decoration: underline #76A89D;
 }
 
 .pourquoi1 {
     text-align: justify;
-    font-family: 'Roboto Slab', serif;
+    font-family: "Roboto", sans-serif;
     font-size: 1.1em;
     padding-bottom: 15px;
     padding-right: 50px;
@@ -141,7 +135,7 @@ h5 {
 .pourquoi2 {
     text-align: center;
     font-weight: bold;
-    font-family: 'Cinzel', serif;
+    font-family: "Playfair Display", serif;
     font-size: 1.1em;
     padding-top: 5%;
     padding-bottom: 5%;
@@ -156,7 +150,7 @@ h5 {
     color: white;
     margin: auto;
     text-align: center;
-    font-family: 'Roboto Slab', serif;
+    font-family: "Roboto", sans-serif;
     font-size: 1.1em;
     padding: 2%;
     display: block;
@@ -190,132 +184,23 @@ h5 {
     gap:2em
 }
 
-.dip2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 1em;
-}
-
-.diplome {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-    gap: 5em;
-    padding-bottom: 10%;
-}
-
-.dev {
-    width: 30%;
-    height: 30%;
-    box-shadow: 12px 12px 2px 1px #75A99E;
-}
-
-.dip1{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 1em;
-}
-
-.bts {
-    display: flex;
-    justify-content: center;
-    gap: 5em;
-    padding-bottom: 10%
-}
-
-.fruit {
-    width: 30%;
-    height: 30%;
-    box-shadow: 12px 12px 2px 1px #75A99E;
-}
-
-.dip3 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 1em;
-}
-
-.bac {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-    gap: 5em;
-    padding-bottom: 10%
-}
-
-.sciences {
-    width: 30%;
-    height: 30%;
-    box-shadow: 12px 12px 2px 1px #75A99E;
-}
-
-.nomdiplome {
-    font-family: 'Cinzel', serif;
-    font-size: 2em;
-    color:#435e58;
-
-}
-
 .section-3 {
-    background-image: url(images/fondbleu.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     padding-top: 5%;
-    display: flex;
-    flex-direction: column;
     padding-bottom: 10%;
 }
 
-.section-3 p {
-    font-family: 'Roboto Slab', serif;
-    padding-bottom: 3%;
-
+.section-3 img {
+    width: 10%;
+    height: 10%;
 }
 
-.liste {
+.gitHub {
     display: flex;
-    flex-direction: column;
-    width: auto;
-    align-self: center;
-    gap: 1em;
-    font-family: 'Roboto Slab', serif;
-    font-size: 1.2em;
+    justify-content: center;
+    height: 10%;
 }
 
 .section-4 {
-    padding-top: 5%;
-    padding-bottom: 5%;
-}
-
-.section-5 {
-    padding-bottom: 10%;
-}
-
-h6 {
-    font-weight: bold;
-    font-family: 'Cinzel', serif;
-    font-size: 1.1em;
-    padding-top: 2%;
-    text-align: center;
-}
-
-.section-5 p {
-    text-align: center;
-}
-
-.tempsdate {
-    border-bottom: solid 1px #76A89D;
-    margin: auto;
-    width: 30%;
-    padding-bottom: 3%;
-    font-size: 1em;
-}
-
-.section-6 {
     padding-bottom: 10%;
     background-image: url(images/bureau.jpg);
     background-size: cover;
@@ -340,7 +225,7 @@ h6 {
 
 footer {
     text-align: center;
-    font-family: 'Roboto Slab', serif;
+    font-family: "Roboto", sans-serif;
     font-size: 1.1em;
 }
 

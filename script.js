@@ -22,13 +22,13 @@ function addScrollSmooth(e){
         behavior: "smooth"
     })
 }
-//Quand je clique sur mon boutonC cela m'envois à la section 6 du tableau sections en utilisation un effet de scrolling Smooth//
+//Quand je clique sur mon boutonC cela m'envois à la section 4 du tableau sections en utilisation un effet de scrolling Smooth//
 
 boutonC.addEventListener("click", addScrollSmoothContact)
 
 function addScrollSmoothContact() {
     window.scrollTo({
-        top: sections.at(6).offsetTop,
+        top: sections.at(3).offsetTop,
         behavior: "smooth"
     })
 }
