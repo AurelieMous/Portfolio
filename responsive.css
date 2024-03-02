@@ -98,83 +98,50 @@
         height: 40%;
         box-shadow: 12px 12px 2px 1px #75A99E; 
     }
-    .dip2 {
-        text-align: center;
-    }
-    .diplome {
+    .liens {
         flex-direction: column;
-        align-items: center;
         gap: 1em
-    }
-    .dev {
-        width: 50%;
-        height: 30%;
-        box-shadow: 12px 12px 2px 1px #75A99E;
-    }
-    .dip1 {
-        text-align: center;
-    }
-    .bts {
-        flex-direction: column;
-        align-items: center;
-        gap: 1em
-    }
-    .fruit {
-        width: 50%;
-        height: 30%;
-        box-shadow: 12px 12px 2px 1px #75A99E;
-    }
-    .dip3 {
-        text-align: center;
-    }
-    .bac {
-        flex-direction: column;
-        align-items: center;
-        gap: 1em
-    }
-    .sciences {
-        width: 50%;
-        height: 30%;
-        box-shadow: 12px 12px 2px 1px #75A99E;
-    }
-    .contacter {
-        font-size: 0.8em;
     }
 }
  
 /* For Mobile Portrait View */
 @media screen and (max-device-width: 480px){
+    .section-0 {
+        background-color: gainsboro;
+        background-image: none;
+    }
+
     h5 {
-        font-size: 0.6em;
+        font-size: 3em;
+    }
+    .liens-pratiques {
+        font-size: 2.3em;
     }
     .pourquoi1 {
         padding: 0%;
+        font-size: 2em;
     }
     header {
         display: none;
     }
-    .click {
-        width: 30%;
-    }
-    #back {
-        top: 98%;
-        left: 93%;
-    }
-    .section-3 h5 {
-        font-size: 1.5em;
-    }
-    .section-5 h6 {
-        font-size: 0.8em;
-    }
-    .section-5 p {
-        font-size: 0.8em;
+    .liens {
+        flex-direction: column;
+        gap: 1em
     }
 
-    .tempsdate {
-        font-size: 2em;
+    .click {
+        width: 50%;
+        font-size: 3em;
     }
-    .contacter {
-        font-size: 0.5em;
+    #back {
+        display: none;
+    }
+    .section-2 img {
+        width: 20%;
+        height: 20%;
+    }
+    footer {
+        font-size:2.5em;
     }
 }
 
