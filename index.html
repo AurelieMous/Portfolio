@@ -5,7 +5,7 @@
     <title>Aurélie Moustardier - CV</title>
     <link href="accueil.css" rel="stylesheet">
     <link href="responsive.css" rel="stylesheet">
-    <link href="competences.css" rel="stylesheet">
+    <link href="animation.css" rel="stylesheet">
     <!--Première écriture-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,11 +14,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
+    
 
     <script src="script.js" defer></script>
 </head>
-<body>
+<body id="taille-canvas">
+    <canvas class="canvas-containeur"></canvas>
     <header>
         <nav id="navigateur">
             <a class="ligne" href="#section-0">Accueil</a>
@@ -30,26 +31,21 @@
     <main>
         <section class="section-0">
             <div>
-                <div class="boxshadow">
-                    <h1>Aurélie MOUSTARDIER</h1>
-                    <h2>DÉVELOPPEUSE FRONTEND JS</h2>
-                </div>
-                <h4>A la recherche d'une entreprise d'accueil pour une 
+                    <h1 class="focus-in-contract">Aurélie MOUSTARDIER</h1>
+                    <h2 class="focus-in-contract">DÉVELOPPEUSE FRONTEND JS</h2>
+                    <h4 class="text-focus-in">A la recherche d'une entreprise d'accueil pour une 
                     <br>
                     alternance de Concepteur Développeur d'Application (BAC+4) </h4>
-                <h4>Contrat d'apprentissage</h4>
-                <h3>2 semaines en entreprise, 1 semaine à l'école, pendant 20 mois</h3>
-                <h3>Éligibilité à la prime de 6 000 €</h3>
-                <h3>Début de la formation : Octobre 2024</h3>
-                <div class="liens-pratiques">
-                    <a href="https://oclock.io/formations/cda-alternance">Plus d'informations</a>
-                </div>
+                    <h4 class="text-focus-in">Contrat d'apprentissage</h4>
+                    <h3 class="text-focus-in">2 semaines en entreprise, 1 semaine à l'école, pendant 20 mois</h3>
+                    <h3 class="text-focus-in">Éligibilité à la prime de 6 000 €</h3>
+                    <h3 class="text-focus-in">Début de la formation : Octobre 2024</h3>
             </div>
         </section>
         <section class="section-1">
             <h5>À PROPOS</h5>
                 <div class="megacontenaire">
-                    <div class="groscontenaire">
+                    <div class="groscontenaire" class="animate__slideInLeft">
                         <div class="pourquoi1">
                             <p>À l'âge de 26 ans, je souhaite me réorienter vers le domaine du Développement Web. C’est un domaine qui m'intéresse énormément 
                                 et suscite ma curiosité intellectuelle, non seulement en raison de ses possibilités et ressources professionnelles, mais également 
@@ -64,10 +60,11 @@
                             <p class="pourquoi2">En tant qu'alternante, je serai flexible et m'adapterai aux besoins de votre entreprise !</p>
                         <div class="liens">
                             <a href="mailto:aurelie.moustardier@outlook.fr" class="click">Me contacter</a>
-                            <a class="click" href="CV Aurélie Moustardier  .pdf" target="_blank">Mon CV</a>
+                            <a class="click" href="CV Aurélie Moustardier .pdf" target="_blank">Mon CV</a>
+                            <a class="click" href="https://oclock.io/formations/cda-alternance" target="_blank">La formation</a>
                         </div>
                     </div>
-                    <img class="profile" src="images/imageprofile.jpg" alt="Aurélie Moustardier">
+                    <img class="profile" class="swing-in-top-fwd " src="images/imageprofile.jpg" alt="Aurélie Moustardier">
                 </div>
         </section> 
         <section class="section-2">
@@ -75,6 +72,7 @@
             <a href="https://github.com/AurelieMous" target="_blank" class="gitHub"><img src="images/GitHub.png" alt="github"></a>
         </section>
         <a id="back" href="#section-0"><img class="retourhautdepage" src="images/retour.png"></a>
+    
     </main>
     <footer>
         <p>Crée par Aurélie Moustardier, tout droits réservés.</p>
