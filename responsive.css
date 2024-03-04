@@ -125,11 +125,6 @@
  
 /* For Mobile Portrait View */
 @media screen and (max-device-width: 480px){
-    .section-0 {
-        background-color: gainsboro;
-        background-image: none;
-    }
-
     h5 {
         font-size: 3em;
     }
