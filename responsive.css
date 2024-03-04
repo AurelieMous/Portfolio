@@ -50,6 +50,9 @@
         .taille-canvas{
             display: none;
         }
+        canvas {
+            display: none;
+        }
         nav a {
             font-size: 0.7em;
         }
