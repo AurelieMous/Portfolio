@@ -4,13 +4,6 @@ body, html {
     margin: 0;
 }
 
-canvas { 
-    overflow: hidden;
-    width:100vw;
-    height:100vh;
-    background-color:black;
- }
-
 header, footer {
     background-color: white;
 }
@@ -190,7 +183,7 @@ h5 {
     background: #75A99E;
     color: #fff;
     padding: 1rem 3rem;
-    font-size: 1.5rem;
+    font-size: 1.5em;
     font-weight: 600;
     border: none;
     border-radius: 2rem;
