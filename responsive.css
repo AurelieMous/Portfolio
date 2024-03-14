@@ -12,6 +12,7 @@
     .groscontenaire {
         padding-top: 5%;
         gap:8em;
+        justify-content: center;
     }
     h4 {
         padding-left: 200px;
@@ -94,6 +95,13 @@
     }
     .button-choix {
         gap:1em;
+    }
+    #nom-langages {
+        flex-direction: column;
+        align-items: center;
+    }
+    h6 {
+        width: 40%;
     }
     .conteneura {
         display: none;

@@ -1,0 +1,51 @@
+[
+    {
+        "nom": "HMTL5",
+        "classe": "frontend"
+    },
+
+    {
+        "nom": "CSS3",
+        "classe":"frontend"
+    },
+
+    {
+        "nom": "JavaScript",
+        "classe":"frontend"
+    },
+
+    {
+        "nom": "JavaScript",
+        "classe":"frontend"
+    },
+
+    {
+        "nom": "React",
+        "classe":"frontend"
+    },
+
+    {
+        "nom": "JQuery",
+        "classe":"frontend"
+    },
+    
+    {
+        "nom": "JAVA",
+        "classe": "backend"
+    },
+
+    {
+        "nom": "Node.js",
+        "classe": "backend"
+    },
+
+    {
+        "nom": "SQL",
+        "classe": "BDD"
+    },
+
+    {
+        "nom": "MongoDB",
+        "classe": "BDD"
+    }
+]
