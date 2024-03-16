@@ -15,11 +15,6 @@
     },
 
     {
-        "nom": "JavaScript",
-        "classe":"frontend"
-    },
-
-    {
         "nom": "React",
         "classe":"frontend"
     },
