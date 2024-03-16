@@ -11,7 +11,7 @@ let basesDonnees = document.getElementById('bases-de-donnees')
 
 
 async function AfficherLangage (contexte) {
-    const reponse = await fetch("https://aureliemous.github.io/Portfolio/langages.json")
+    const reponse = await fetch('https://raw.githubusercontent.com/AurelieMous/Portfolio/Main/langages.json')
     const langages = await reponse.json();
 
     const classes =  langages.filter(element => element.classe === contexte);
