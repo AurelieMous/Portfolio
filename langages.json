@@ -10,6 +10,11 @@
     },
 
     {
+        "nom":"Bootstrap",
+        "classe":"frontend"
+    },
+
+    {
         "nom": "JavaScript",
         "classe":"frontend"
     },
@@ -20,12 +25,12 @@
     },
 
     {
-        "nom": "JQuery",
-        "classe":"frontend"
-    },
-    
-    {
         "nom": "JAVA",
+        "classe": "backend"
+    },
+
+    {
+        "nom": "PHP",
         "classe": "backend"
     },
 
