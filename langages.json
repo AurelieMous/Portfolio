@@ -10,17 +10,17 @@
     },
 
     {
-        "nom":"Bootstrap",
+        "nom":"Bootstrap (en cours)",
         "classe":"frontend"
     },
 
     {
-        "nom": "JavaScript",
+        "nom": "JavaScript (en cours)",
         "classe":"frontend"
     },
 
     {
-        "nom": "React",
+        "nom": "React (en cours)",
         "classe":"frontend"
     },
 
@@ -30,12 +30,12 @@
     },
 
     {
-        "nom": "PHP",
+        "nom": "PHP (en cours)",
         "classe": "backend"
     },
 
     {
-        "nom": "Node.js",
+        "nom": "Node.js (en cours)",
         "classe": "backend"
     },
 
@@ -47,5 +47,13 @@
     {
         "nom": "MongoDB",
         "classe": "BDD"
+    },
+    {
+        "nom": "TypeScript (en cours)",
+        "classe": "frontend"
+    },
+    {
+        "nom": "Angular (en cours)",
+        "classe": "frontend"
     }
 ]
