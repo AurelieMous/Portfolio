@@ -5,32 +5,22 @@
     },
 
     {
-        "nom": "CSS3",
+        "nom": "CSS3/SCSS",
         "classe":"frontend"
     },
 
     {
-        "nom":"Bootstrap (en cours)",
+        "nom": "JavaScript Vanilla",
         "classe":"frontend"
     },
 
     {
-        "nom": "JavaScript (en cours)",
+        "nom": "ReactJS",
         "classe":"frontend"
     },
 
     {
-        "nom": "React (en cours)",
-        "classe":"frontend"
-    },
-
-    {
-        "nom": "JAVA",
-        "classe": "backend"
-    },
-
-    {
-        "nom": "PHP Symfony(en cours)",
+        "nom": "Python Django",
         "classe": "backend"
     },
 
@@ -45,15 +35,27 @@
     },
 
     {
+        "nom": "PostgreSQL",
+        "classe": "BDD"
+    },
+
+    {
         "nom": "MongoDB",
         "classe": "BDD"
     },
+
     {
-        "nom": "TypeScript (en cours)",
+        "nom": "TypeScript",
         "classe": "frontend"
     },
+
     {
-        "nom": "Angular (en cours)",
-        "classe": "frontend"
+        "nom": "Kubernetes",
+        "classe": "devops"
+    },
+
+    {
+        "nom": "Docker",
+        "classe": "devops"
     }
 ]

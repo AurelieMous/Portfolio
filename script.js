@@ -8,6 +8,7 @@ let afficherElement = document.getElementById('nom-langages')
 let frontEnd = document.getElementById('frontend')
 let backEnd = document.getElementById('backend')
 let basesDonnees = document.getElementById('bases-de-donnees')
+let devOps = document.getElementById('devops')
 
 
 async function AfficherLangage (contexte) {
@@ -37,6 +38,12 @@ async function AfficherLangage (contexte) {
                 basesDonneesAffiche.innerText = classes[index].nom;
                 afficherElement.appendChild(basesDonneesAffiche);
                 break;
+
+            case "devops" :
+                const devOpsAffiche = document.createElement("h6");
+                devOpsAffiche.innerText = classes[index].nom;
+                afficherElement.appendChild(devOpsAffiche);
+                break;
         }
     }
 }
@@ -53,4 +60,9 @@ backEnd.addEventListener('click', () => {
 basesDonnees.addEventListener('click', () => {
     afficherElement.innerHTML= "";
     AfficherLangage("BDD");
+})
+
+devOps.addEventListener('click', () => {
+    afficherElement.innerHTML="";
+    AfficherLangage("devops");
 })
