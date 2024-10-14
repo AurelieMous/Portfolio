@@ -1,0 +1,3 @@
+I am learning application development and design through my work-study program, following a schedule of one week at school and two weeks in the company.
+I am making a career change into this field after working as a dietitian, where I developed soft skills like listening skills, teamwork, intellectual curiosity...
+I learn several Front-end Framework and Back-End Framework during my formation in O'Clock school. 
